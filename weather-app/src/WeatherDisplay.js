@@ -1,8 +1,10 @@
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const WeatherDisplay = () => {
     const [weatherData, setWeatherData] = useState(null);
+
 
     useEffect(() => {
         const fetchData = async () => {
