@@ -14,8 +14,6 @@ const WeatherDisplay = () => {
 
         fetchData();
     }, []);
-
-    // Render weather information
     return (
         <div>
             {/* Render weather data */}
